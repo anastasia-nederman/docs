@@ -22,6 +22,12 @@
             ]
           },
           {
+            "group": "Configure Engage",
+            "pages": [
+              "api_connections"
+            ]
+          },
+          {
             "group": "Essentials",
             "pages": [
               "essentials/markdown",
