@@ -1,0 +1,54 @@
+---
+title: "API connections"
+description: "Description of your new file."
+---
+
+The Engage configuration area allows you to set up API keys in a more flexible way than before. Now API keys can be easily created without linking them to specific users, as well as refreshed or deleted when needed.
+
+This is done in the **API connections** section of the Engage configuration area.
+
+> Voyado strongly recommends that you always have an individual unique API key for every integration / system you will use to communicate with Engage. This simplifies troubleshooting and reduces the problems and time needed when an API key is changed or needs to be shut down / terminated.
+
+## Finding the Configure Engage area
+
+> You'll need to have configurator permissions for your Engage account to access the configuration area. To get these permissions, contact your Voyado team.
+
+In the Engage front-end, navigate to Administration and then select Configure Engage:
+
+## The API Connections page
+
+Select API Connections from the menu. This takes you to a list of the currently active API connections for your tenant, and shows you what type they are and what are intended to be used for.
+
+config-hub-api-connections-01.png
+
+### Adding a connection
+
+Selecting "Add connection" will bring up this panel.
+
+config-hub-api-connections-04.png
+
+**Name:** Either select an existing name from the dropdown, or choose the "Other" option if you want to add a new name (in which case the "Other name" field will appear). Since these API keys will usually be connected to a specific integration, it's good to include the integration's name, as a reminder.
+
+There is no validation of names, and several connections can share the same one.
+
+**Other name:** If you've chosen "Other" as name, this field appears. Enter the name you want here.
+
+**Type:** Select an existing type from the dropdown, or choose the "Other" option if you want to add a new one, which causes the "Other type" field to appear.
+
+**Other name:** If you've chosen "Other" in the previous dropdown, enter your value for type here.
+
+**API allowlist:** Here you can enter, as a comma separated list, all the IP addresses that are allowed to make calls using this API key. If this field is left empty, then all IP addresses are allowed.
+
+### Editing a connection
+
+Clicking the "meatball menu" to the right of each entry brings up this menu:
+
+config-hub-api-connections-02.png
+
+From here you can edit the entry, re-generate its API key or delete it.
+
+Choosing "Edit connection" brings up this panel:
+
+config-hub-api-connections-03.png
+
+Here you can change any of the values you entered when you created the connection.
